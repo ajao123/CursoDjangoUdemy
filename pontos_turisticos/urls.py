@@ -17,15 +17,17 @@ from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
-
+from django.conf import settings
+from django.conf.urls.static import static
 from avaliacoes.api.viewsets import AvaliacaoViewSet
 from comentarios.api.viewsets import ComentarioViewSet
 from core.api.viewsets import PontoTuristicoViewSet
 from enderecos.api.viewsets import EnderecoViewSet
 from recursos.api.viewsets import RecursoViewSet
+from rest_framework.authtoken.views import obtain_auth_token
 
 router = routers.DefaultRouter()
-router.register(r'pontoturistico', PontoTuristicoViewSet)
+router.register(r'pontosturisticos', PontoTuristicoViewSet, basename='PontoTuristico')
 router.register(r'recurso', RecursoViewSet)
 router.register(r'endereco', EnderecoViewSet)
 router.register(r'comentario', ComentarioViewSet)
@@ -34,4 +36,5 @@ router.register(r'avaliacao', AvaliacaoViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-]
+    path('api-token-auth/', obtain_auth_token),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

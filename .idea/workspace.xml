@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="613512b8-1fa2-4dfb-9319-e8a3bd49792e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comentarios/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comentarios/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/enderecos/api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pontos_turisticos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pontos_turisticos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/enderecos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../departamentos" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -133,44 +140,74 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580267712329">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580267712329" />
-    <state x="420" y="99" key="FileChooserDialogImpl" timestamp="1580267672236">
+    <state x="420" y="99" key="FileChooserDialogImpl" timestamp="1580749969435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="420" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1580267672236" />
-    <state width="1259" height="165" key="GridCell.Tab.0.bottom" timestamp="1580480560301">
+    <state x="420" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1580749969435" />
+    <state width="1259" height="99" key="GridCell.Tab.0.bottom" timestamp="1580694803336">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580480560301" />
-    <state width="1259" height="165" key="GridCell.Tab.0.center" timestamp="1580480560301">
+    <state width="1259" height="99" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580694803336" />
+    <state width="1259" height="99" key="GridCell.Tab.0.center" timestamp="1580694803336">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580480560301" />
-    <state width="1259" height="165" key="GridCell.Tab.0.left" timestamp="1580480560300">
+    <state width="1259" height="99" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580694803336" />
+    <state width="1259" height="99" key="GridCell.Tab.0.left" timestamp="1580694803336">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580480560300" />
-    <state width="1259" height="165" key="GridCell.Tab.0.right" timestamp="1580480560301">
+    <state width="1259" height="99" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580694803336" />
+    <state width="1259" height="99" key="GridCell.Tab.0.right" timestamp="1580694803336">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580480560301" />
-    <state x="339" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1580470275275">
+    <state width="1259" height="99" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580694803336" />
+    <state width="1259" height="228" key="GridCell.Tab.1.bottom" timestamp="1580515482928">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="339" y="338" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580470275275" />
+    <state width="1259" height="228" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580515482928" />
+    <state width="1259" height="228" key="GridCell.Tab.1.center" timestamp="1580515482917">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="228" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580515482917" />
+    <state width="1259" height="228" key="GridCell.Tab.1.left" timestamp="1580515482914">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="228" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580515482914" />
+    <state width="1259" height="228" key="GridCell.Tab.1.right" timestamp="1580515482928">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="228" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580515482928" />
+    <state x="339" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1580747261088">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="339" y="338" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580747261088" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/recursos/admin.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
